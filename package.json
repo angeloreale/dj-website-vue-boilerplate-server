@@ -1,6 +1,6 @@
 {
-  "name": "dhruid-v2-server",
-  "description": "MEVN server for Dhruid artist page.",
+  "name": "dj-website-vue-boilerplate-server",
+  "description": "MEVN server for DJ Website Vue Boilerplate artist page.",
   "version": "1.0.0",
   "author": {
     "name": "Angelo Reale",
@@ -58,7 +58,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:angeloreale/dhruid-v2-server.git"
+    "url": "git@github.com:angeloreale/dj-website-vue-boilerplate-server.git"
   },
   "keywords": [
     "node",

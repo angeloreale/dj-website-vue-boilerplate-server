@@ -87,13 +87,6 @@ module.exports = function(app, passport) {
   // cookieParser should be above session
   app.use(cookieParser(pkg.name));
 
-  // app.use(
-  //   cookieSession({
-  //     name: 'dhruidsesh',
-  //     keys: ['adhruidisamagicianofhighrankinancientcelticculture'],
-  //     maxAge: 24 * 60 * 60 * 1000 // 24 hours
-  //   })
-  // );
   app.use(
     session({
       secret: pkg.name,
